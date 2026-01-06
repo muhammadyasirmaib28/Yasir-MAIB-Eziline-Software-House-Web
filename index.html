@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon-image.png" type="image/x-icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Eziline Software House</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="m-0 bg-white/80">
+
+    <!-- header section starts here -->
+     <header class="w-full lg:h-200 md:h-140 h-120 relative z-10 lg:pt-2 flex flex-col flex-wrap items-center gap-8">
+
+        <!-- background image -->
+         <div class="absolute inset-0 -z-10">
+            <img class="w-full h-full object-cover" src="/images/header-background-image.jpg" alt="background">
+            <div class="absolute inset-0 bg-blue-400/50"></div>
+         </div>
+
+         <!-- navbar -->
+          <nav class="w-full md:h-50 flex flex-row flex-wrap items-center justify-between md:p-6 p-4 bg-white">
+            <!-- logo image -->
+             <div class="lg:w-112.5 md:w-100 w-48">
+                <img class="w-full h-full object-contain cursor-pointer" src="/images/navbar-logo-image.png" alt="logo">
+             </div>
+             <!-- toggle -->
+              <div>
+                <p class="text-black/90 font-semibold md:text-4xl text-2xl flex lg:hidden cursor-pointer">&#8801</p>
+              </div>
+             <!-- list icon -->
+              <ul class="lg:flex flex-row flex-wrap font-medium text-black/75 text-lg gap-5 [&>li]:cursor-pointer hidden">
+                <li class="hover:text-blue-500 transition-all duration-200">HOME</li>
+                <li class="hover:text-black transition-all duration-200">ABOUT</li>
+                <li class="hover:text-blue-500 transition-all duration-200">INTERNSHIP'S</li>
+                <li class="hover:text-black transition-all duration-200">COURSES</li>
+                <li class="hover:text-blue-500 transition-all duration-200">CAREER</li>
+                <li class="hover:text-black transition-all duration-200">TECH BLOGS</li>
+              </ul>
+          </nav>
+
+          <!-- animated text -->
+           <div class="lg:w-[70%] md:w-[90%] w-full text-center flex items-center justify-center md:mt-18 lg:mt-0 md:font-bold font-semibold lg:text-6xl md:text-4xl text-2xl">
+              <p class="animate-text1 text-white cursor-default">learn the fundamentals with our Experts in
+                <span class="changing-word text-blue-400 ml-2">
+                </span>
+              </p>
+           </div>
+
+           <!-- search box-->
+            <div class="relative mt-14 w-120 lg:block hidden">
+                <!-- Input -->
+                 <input 
+                 type="text" 
+                 placeholder="Search Internships..."
+                 class="w-full h-16 bg-white text-black/80 pr-12 pl-6 text-xl rounded-full outline-none focus:ring-0 border border-gray-300"/>
+                <!-- Icon on right -->
+                 <i class="ri-search-line absolute right-6 top-1/2 -translate-y-1/2 text-gray-500 text-lg font-medium pointer-events-none"></i>
+            </div>
+
+            <!-- text flex div -->
+             <div class="text-white font-medium mt-5 text-center lg:block md:hidden">
+                <h1 class="md:text-xl text-sm cursor-default">Explore our more useful product ❤️</h1>
+                <div class="flex flex-row mt-5 gap-7 lg:text-5xl md:text-3xl text-xl font-bold [&>p]:cursor-pointer">
+                    <p>EZIBLOGS</p>
+                    <p>EZIPOS</p>
+                    <p>EZIC <span class="text-blue-400">O</span> DING</p>
+                </div>
+             </div>
+            
+     </header>
+
+     <!-- brand slider section starts here -->
+      <section class="w-full h-auto my-5 bg-white cursor-pointer">
+        
+        <style>
+        @keyframes marquee {
+          0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-2%);
+          }
+          }
+        </style>
+
+        <div class="w-full overflow-hidden py-6">
+          <div class="flex w-max gap-16" style="animation: marquee 20s linear infinite;">
+             <!-- ORIGINAL 8 IMAGES -->
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/adobe-animate.png" alt="adobe-animate">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/adobe-xd.png" alt="adobe-xd">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/blender.png" alt="blender">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/capcut.png" alt="capcut">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/cinema-4d.png" alt="cinema-4d">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/express-js.png" alt="express-js">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/figma-2.png" alt="figma-2">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/filmora.png" alt="filmora">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/flutter-1.png" alt="flutter-1">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/game-maker-2.png" alt="game-maker-2">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/html.png" alt="html">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/illustrator.png" alt="illustrator">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/java-2.png" alt="java-2">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/java.png" alt="java">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/laravel.png" alt="laravel">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/maya-2.png" alt="maya-2">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/mongodb.png" alt="mongodb">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/motion-ui.png" alt="motion-ui">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/nodejs.png" alt="nodejs">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/photoshop-1.png" alt="photoshop-1">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/react.png" alt="react">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/sketchup.png" alt="sketchup">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/vujs.png" alt="vujs">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/wordpress-1.png" alt="wordpress-1">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/yoast.png" alt="yoast">
+              <img class="lg:h-14 md:h-8 h-6 object-contain" src="/images/z-brush.png" alt="z-brush">
+          </div>
+        </div>
+
+      </section>
+
+     <!-- content section starts here -->
+      <section class="w-full bg-white flex flex-col items-center p-5 gap-8 md:gap-14 lg:gap-20 mt-16 md:mt-24">
+
+         <!-- Heading -->
+         <p class="text-black/85 font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
+                   text-center w-[95%] sm:w-[90%] md:w-[80%] lg:w-[70%]">
+           Shaping Empowering Future IT Talent Through a Seamless Process
+         </p>
+       
+         <!-- Steps Wrapper -->
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
+                     gap-12 md:gap-10 lg:gap-16 w-full max-w-6xl">
+       
+           <!-- STEP 1 -->
+           <div class="flex flex-col">
+             <div class="flex items-start gap-5">
+               <p class="text-sm sm:text-base md:text-lg text-gray-400">
+                 STEP 1 <br>
+                 <span class="font-bold text-black/90 
+                              text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                   Discover Tech
+                 </span>
+               </p>
+               <h1 class="font-medium text-gray-300 
+                          text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+                 1
+               </h1>
+             </div>
+             <p class="text-gray-600 mt-4 md:mt-6 lg:mt-8 text-sm md:text-base">
+               Explore internships across various
+               technologies that align with your
+               career goals. Start your journey by
+               selecting a field that excites you.
+             </p>
+           </div>
+       
+           <!-- STEP 2 -->
+           <div class="flex flex-col">
+             <div class="flex items-start gap-5">
+               <p class="text-sm sm:text-base md:text-lg text-gray-400">
+                 STEP 2 <br>
+                 <span class="font-bold text-black/90 
+                              text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                   Evaluation
+                 </span>
+               </p>
+               <h1 class="font-medium text-gray-300 
+                          text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+                 2
+               </h1>
+             </div>
+             <p class="text-gray-600 mt-4 md:mt-6 lg:mt-8 text-sm md:text-base">
+               Our process includes an interview
+               and a short evaluation task to
+               assess your skills and readiness,
+               helping us match you with the right
+               opportunity.
+             </p>
+           </div>
+       
+           <!-- STEP 3 -->
+           <div class="flex flex-col">
+             <div class="flex items-start gap-5">
+               <p class="text-sm sm:text-base md:text-lg text-gray-400">
+                 STEP 3 <br>
+                 <span class="font-bold text-black/90 
+                              text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+                   Track Progress
+                 </span>
+               </p>
+               <h1 class="font-medium text-gray-300 
+                          text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+                 3
+               </h1>
+             </div>
+             <p class="text-gray-600 mt-4 md:mt-6 lg:mt-8 text-sm md:text-base">
+               Once selected, gain access to our
+               iPortal to monitor your internship
+               progress, track your achievements,
+               and stay on top of your goals.
+             </p>
+           </div>
+       
+         </div>
+       
+         <!-- Bottom text -->
+         <p class="text-gray-400 text-sm md:text-base text-center">
+           Still have a question?
+           <span class="text-blue-600 underline cursor-pointer">documentation</span>
+           or
+           <span class="text-blue-600 underline cursor-pointer">submit a ticket.</span>
+         </p>
+
+      </section>
+
+
+       <!-- images box section starts here -->
+        <section class="w-full h-auto bg-white md:flex flex-col flex-wrap items-center p-5 lg:gap-5 md:gap-2.5 hidden">
+
+          <!-- flex div --> 
+          <div class="flex flex-row items-start lg:gap-16 md:gap-8">
+          <!-- image #01 -->
+           <div class="w-75 h-100 rounded-lg overflow-hidden cursor-default mt-36">
+              <img class="w-full h-full object-cover" src="/images/sem1.webp" alt="sem1">
+           </div>
+
+           <!-- image #02 -->
+           <div class="w-85 h-115 rounded-lg overflow-hidden cursor-default mt-80 md:transform md:-translate-x-36 lg:translate-x-0">
+              <img class="w-full h-full object-cover" src="/images/sem2.webp" alt="sem2">
+           </div>
+
+           <!-- image #03 -->
+           <div class="flex flex-col">
+           <div class="w-55 h-40 rounded-lg overflow-hidden cursor-default mt-40 md:transform md:-translate-x-56 lg:translate-x-0">
+              <img class="w-full h-full object-cover" src="/images/sem3.jpg" alt="sem3">
+           </div>
+           <div class="w-30 h-30 overflow-hidden cursor-default mt-80 ml-20 md:transform md:-translate-x-46 lg:translate-x-0">
+              <img class="w-full h-full object-cover" src="/images/dots1.svg" alt="dots1">
+           </div>
+           </div>
+           <!-- flex div ends here -->
+           </div> 
+
+           <!-- bg colour text -->
+            <div>
+              <p class="w-50 h-10 bg-blue-100 text-blue-800 flex items-center justify-center rounded-l-full rounded-r-full cursor-text md:mr-56 md:mt-5 lg:mr-0 lg:mt-0">What we do...?</p>
+            </div>
+
+        </section>
+
+       <!-- our mission section starts here -->
+         <section class="w-full h-auto bg-white flex flex-col flex-wrap items-center justify-center lg:gap-8 md:gap-5 gap-2.5 lg:mt-5 md:mt-2.5 mt-6">
+
+          <!-- heading #01 -->
+           <p class="text-black/90 font-bold md:text-5xl text-3xl cursor-text text-center">Empowering Connections in the <span class="hover:bg-blue-300 transition duration-500 ease-in-out">Digital World</span></p>
+
+           <!-- heading #02 -->
+           <p class="text-gray-500 font-medium text-lg cursor-text text-center">We equip future professionals with the essential tools to thrive in both traditional and digital IT landscapes.</p>
+
+           <!-- discription -->
+           <p class="text-black/50 text-center w-[80%] md:text-2xl text-xl cursor-text">With years of experience and countless successful placements, Ezitech Institute has perfected a unique learning process that goes beyond theory. We delve deep into practical skills and real-world applications, helping students understand, connect, and excel in the ever-evolving tech market.</p>
+
+           <!-- button -->
+            <button class="md:px-14 md:py-7 px-10 py-4 bg-blue-500 font-bold text-white hover:bg-blue-900 transition duration-500 ease-in-out cursor-pointer rounded-r-full rounded-l-full my-5">MORE ABOUT US</button>
+
+         </section>
+
+         <!-- our-achievements section starts here -->
+          <section class="w-full h-auto bg-white/70 flex flex-col flex-wrap items-center justify-center lg:mt-40 md:mt-20 lg:py-10 md:py-5 mt-12 py-5">
+
+            <!-- text part -->
+             <div class="flex flex-col lg:gap-10 md:gap-6 gap-3 w-[90%]">
+                <h1 class="text-black/90 font-bold lg:text-5xl md:text-4xl text-3xl cursor-text text-center">Hundreds of Successful Internships & <span class="hover:bg-blue-300 transition duration-500 ease-in-out">Countings</span></h1>
+                <p class="text-black/50 md:text-2xl text-xl text-center cursor-text">With a commitment to quality training and career advancement, we've empowered students from diverse backgrounds. Through structured Internship, hands-on projects, and expert mentorship, Ezitech Institute ensures that every student builds a solid foundation in IT.</p>
+             </div>
+
+             <!-- achievements parts -->
+              <div class="flex md:flex-row flex-col flex-wrap items-center justify-center md:mt-16 mt-10">
+                 <!-- box #01 -->
+                  <div class="lg:w-120 lg:h-50 md:w-80 md:h-36 w-100 h-30 bg-white shadow-xl md:border-r border-gray-300 gap-2 flex flex-col items-center justify-center">
+                     <h1 class="lg:text-6xl md:text-4xl text-xl text-blue-900 font-bold cursor-text">37+</h1>
+                     <p class="text-xl text-black/50 cursor-text">Industry MoUs</p>
+                  </div>
+
+                  <!-- box #02 -->
+                  <div class="lg:w-120 lg:h-50 md:w-80 md:h-36 w-100 h-30 bg-white shadow-xl md:border-b border-gray-300 gap-2 flex flex-col items-center justify-center">
+                     <h1 class="lg:text-6xl md:text-4xl text-xl text-blue-900 font-bold cursor-text">327</h1>
+                     <p class="text-xl text-black/50 cursor-text">Active Students</p>
+                  </div>
+
+                  <!-- box #03 -->
+                  <div class="lg:w-120 lg:h-50 md:w-80 md:h-36 w-100 h-30 bg-white shadow-xl md:border-t border-gray-300 gap-2 flex flex-col items-center justify-center">
+                     <h1 class="lg:text-6xl md:text-4xl text-xl text-blue-900 font-bold cursor-text">98%</h1>
+                     <p class="text-xl text-black/50 cursor-text">Positive Feedback</p>
+                  </div>
+
+                  <!-- box #04 -->
+                  <div class="lg:w-120 lg:h-50 md:w-80 md:h-36 w-100 h-30 bg-white shadow-xl md:border-l border-gray-300 gap-2 flex flex-col items-center justify-center">
+                     <h1 class="lg:text-6xl md:text-4xl text-xl text-blue-900 font-bold cursor-text">6,663</h1>
+                     <p class="text-xl text-black/50 cursor-text">Successful Graduates</p>
+                  </div>
+              </div>
+
+          </section>
+
+          <!-- our-courses section starts here -->
+           <section class="w-full h-auto bg-white flex flex-col flex-wrap md:p-5 p-2.5 md:mt-10 mt-5 items-center justify-center md:gap-10 gap-5">
+
+            <!-- course #01 -->
+             <div class="group w-[90%] h-auto flex flex-col flex-wrap items-start md:gap-6 gap-3 bg-pink-50 md:p-5 p-2.5 rounded-lg hover:bg-white hover:shadow-lg transition duration-300">
+                <!-- image -->
+                 <div class="md:w-20 md:h-25 w-10 h-10 overflow-hidden">
+                  <img class="w-full h-full object-contain cursor-default" src="/images/app-development.png" alt="app-development">
+                 </div>
+                 <!-- name -->
+                  <div class="text-black/90 font-medium md:text-3xl flex flex-row md:gap-3 relative">
+                    <h1 class="cursor-text">App Development</h1>
+                    <p class="cursor-default"><span class="absolute -right-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"><i class="ri-arrow-right-s-line"></i></span></p>
+                  </div>
+                 <!-- about -->
+                  <p class="text-black/50 md:text-lg cursor-text">We offer hands-on exp to develop cross-platform and native apps for iOS, Android, Windows, and Mac, using the latest tools. Learn to store data in the cloud or on-premises and implement custom backend logic</p>
+                 <!-- button -->
+                  <button class="opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out flex items-center md:gap-2 font-bold cursor-pointer">EXPLORE LANDING <i class="ri-arrow-right-line"></i></button> 
+             </div>
+
+             <!-- course #02 -->
+              <div class="group w-[90%] h-auto flex flex-col flex-wrap items-start md:gap-6 gap-3 bg-blue-50 md:p-5 p-2.5 rounded-lg hover:bg-white hover:shadow-lg transition duration-300">
+                <!-- image -->
+                 <div class="md:w-20 md:h-25 w-10 h-10 overflow-hidden">
+                  <img class="w-full h-full object-contain cursor-default" src="/images/app-development.png" alt="app-development">
+                 </div>
+                 <!-- name -->
+                  <div class="text-black/90 font-medium md:text-3xl flex flex-row md:gap-3 relative">
+                    <h1 class="cursor-text"></h1>
+                    <p class="cursor-default">Graphic Design <span class="absolute -right-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"><i class="ri-arrow-right-s-line"></i></span></p>
+                  </div>
+                 <!-- about -->
+                  <p class="text-black/50 md:text-lg cursor-text">your journey to becoming a skilled graphic designer. Wherever your creativity is headed, we provide the inspiration, tools, and support to help you bring your vision to life</p>
+                 <!-- button -->
+                  <button class="opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out flex items-center gap-2 font-bold cursor-pointer">EXPLORE LANDING <i class="ri-arrow-right-line"></i></button> 
+                </div>
+
+             <!-- course #03 -->
+              <div class="group w-[90%] h-auto flex flex-col flex-wrap items-start md:gap-6 gap-3 bg-pink-50/80 md:p-5 p-2.5 rounded-lg hover:bg-white hover:shadow-lg transition duration-300">
+                <!-- image -->
+                 <div class="md:w-20 md:h-25 w-10 h-10 overflow-hidden">
+                  <img class="w-full h-full object-contain cursor-default" src="/images/thinking.png" alt="thinking">
+                 </div>
+                 <!-- name -->
+                  <div class="text-black/90 font-medium md:text-3xl flex flex-row md:gap-3 relative">
+                    <h1 class="cursor-text">Artificial Intellig... </h1>
+                    <p class="cursor-default"><span class="absolute -right-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"><i class="ri-arrow-right-s-line"></i></span></p>
+                  </div>
+                 <!-- about -->
+                  <p class="text-black/50 md:text-lg cursor-text">Gain practical experience in Artificial Intelligence by building and deploying machine learning models. Learn key concepts, data processing, and model training to prepare for real-world AI challenges</p>
+                 <!-- button -->
+                  <button class="opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out flex items-center gap-2 font-bold cursor-pointer">EXPLORE LANDING <i class="ri-arrow-right-line"></i></button> 
+             </div>
+
+             <!-- course #04 -->
+              <div class="group w-[90%] h-auto flex flex-col flex-wrap items-start md:gap-6 gap-3 bg-yellow-50 md:p-5 p-2.5 rounded-lg hover:bg-white hover:shadow-lg transition duration-300">
+                <!-- image -->
+                 <div class="md:w-20 md:h-25 w-10 h-10 overflow-hidden">
+                  <img class="w-full h-full object-contain cursor-default" src="/images/thinking.png" alt="app-development">
+                 </div>
+                 <!-- name -->
+                  <div class="text-black/90 font-medium md:text-3xl flex flex-row md:gap-3 relative">
+                    <h1 class="cursor-text">2D/3D Arcitecture</h1>
+                    <p class="cursor-default"><span class="absolute -right-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"><i class="ri-arrow-right-s-line"></i></span></p>
+                  </div>
+                 <!-- about -->
+                  <p class="text-black/50 md:text-lg cursor-text">We’re mentors, guides, and partners in your journey to becoming a game developer. Wherever your passion leads, we provide the skills, tools, and support to help you bring your game ideas to life.</p>
+                 <!-- button -->
+                  <button class="opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out flex items-center gap-2 font-bold cursor-pointer">EXPLORE LANDING <i class="ri-arrow-right-line"></i></button> 
+             </div>
+
+             <!-- course #05 -->
+              <div class="group w-[90%] h-auto flex flex-col flex-wrap items-start md:gap-6 gap-3 bg-pink-50 md:p-5 p-2.5 rounded-lg hover:bg-white hover:shadow-lg transition duration-300">
+                <!-- image -->
+                 <div class="md:w-20 md:h-25 w-10 h-10 overflow-hidden">
+                  <img class="w-full h-full object-contain cursor-default" src="/images/programming.png" alt="programming">
+                 </div>
+                 <!-- name -->
+                  <div class="text-black/90 font-medium md:text-3xl flex flex-row md:gap-3 relative">
+                    <h1 class="cursor-text">Web Development</h1>
+                    <p class="cursor-default"><span class="absolute -right-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"><i class="ri-arrow-right-s-line"></i></span></p>
+                  </div>
+                 <!-- about -->
+                  <p class="text-black/50 md:text-lg cursor-text">Exceptional web experiences engage, inspire, and drive results – all built on a foundation of strategic, innovative design</p>
+                 <!-- button -->
+                  <button class="opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out flex items-center gap-2 font-bold cursor-pointer">EXPLORE LANDING <i class="ri-arrow-right-line"></i></button> 
+             </div>
+
+             <!-- course #06 -->
+              <div class="group w-[90%] h-auto flex flex-col flex-wrap items-start md:gap-6 gap-3 bg-blue-50 md:p-5 p-2.5 rounded-lg hover:bg-white hover:shadow-lg transition duration-300">
+                <!-- image -->
+                 <div class="md:w-20 md:h-25 w-10 h-10 overflow-hidden">
+                  <img class="w-full h-full object-contain cursor-default" src="/images/programming.png" alt="programming">
+                 </div>
+                 <!-- name -->
+                  <div class="text-black/90 font-medium md:text-3xl flex flex-row md:gap-3 relative">
+                    <h1 class="cursor-text">Digital Marketing</h1>
+                    <p class="cursor-default"><span class="absolute -right-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"><i class="ri-arrow-right-s-line"></i></span></p>
+                  </div>
+                 <!-- about -->
+                  <p class="text-black/50 md:text-lg cursor-text">We’re mentors, guides, and partners in your journey to mastering digital marketing. Wherever your career goals lead, we provide the knowledge, tools, and support to help you drive impactful marketing strategies</p>
+                 <!-- button -->
+                  <button class="opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out flex items-center gap-2 font-bold cursor-pointer">EXPLORE LANDING <i class="ri-arrow-right-line"></i></button> 
+             </div>
+
+           </section>
+
+           <!-- review section starts here -->
+            <section class="w-full h-auto md:p-5 p-2.5 bg-white flex flex-col flex-wrap items-center justify-center md:mt-14 mt-7 md:gap-12 gap-6">
+              <!-- review text -->
+               <div class="flex flex-col text-center items-center justify-center md:gap-5 gap-2.5">
+                  <p class="md:text-5xl text-3xl font-bold text-black/90 cursor-text">Alumni😍</p>
+                  <p class="text-black/80 md:text-2xl text-xl md:w-[70%] w-[85%] cursor-text">Our interns consistently share positive experiences, highlighting the practical skills and professional growth they achieve with us</p>
+               </div>
+
+               <!-- message students box -->
+                <style>
+        @keyframes marquee{
+          0%{
+            transform: translateX(0%);
+          }
+          100%{
+            transform: translateX(-10%);
+          }
+        }
+        </style>
+
+        <div class="w-full overflow-hidden md:py-6 p-20 cursor-pointer">
+          <div class="flex w-max gap-16" style="animation: marquee 5s linear infinite;">
+             <!-- card #01 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #02 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #03 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #04 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #05 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #06 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #07 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #08 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #09 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #10 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #11 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+
+              <!-- card #12 -->
+              <div class="md:w-125 w-80 h-auto bg-white border-2 border-gray-400 rounded-xl flex flex-col md:gap-5 gap-2.5 md:p-5 p-2.5">
+                 <div class="flex flex-row md:gap-6 gap-3">
+                    <img class="md:w-17.5 md:h-17.5 w-7 h-7 object-cover rounded-full" src="/images/yasir.png" alt="yasir">
+                    <div class="flex flex-col gap-1">
+                      <p class="text-black">M.Yasir MAIB.</p>
+                      <p class="text-gray-500 font-medium">Web developer</p>
+                    </div>
+                    <p><img class="md:w-7.5 md:h-7.5 w-3 h-3 object-cover rounded-full md:ml-46" src="/images/github.png" alt="github"></p>
+                 </div>
+
+                 <p class="text-gray-500 md:font-medium text-sm">During my internship at Eziline Software House, I gained valuable hands-on experience in the software development industry. I had the opportunity to work on real-world projects, collaborate with a professional team, and enhance my technical and problem-solving skills.</p>
+              </div>
+              
+          </div>
+        </div>
+
+        <p class="text-gray-400 cursor-text text-sm md:text-lg">Still have a question? Browse <span class="text-blue-600 underline underline-offset-2 cursor-pointer">documentation</span> or <span class="text-blue-600 underline underline-offset-2 cursor-pointer">submit a ticket.</span></p>
+
+
+      </section>
+
+      <!-- social media section starts here -->
+       <section class="w-full h-auto bg-white flex flex-row flex-wrap items-center justify-center my-14 md:mt-0 space-y-6 md:space-y-0">
+
+        <!-- linkedIn -->
+         <div class="lg:w-[320px] md:w-50 lg:h-70 md:h-48 flex flex-col items-center justify-center lg:gap-2 gap-1 cursor-pointer hover:scale-105 transition transform duration-500">
+           <img class="w-20 h-20" src="/images/linkedin.png" alt="linkedIn">
+           <p class="text-black/90 font-bold mt-8">Follow us on LinkedIn</p>
+           <p class="text-gray-500 font-medium text-center">Latest news and updates</p>
+         </div>
+
+         <div class="w-px h-40 bg-gray-200"></div>
+
+         <!-- youtube -->
+         <div class="lg:w-[320px] w-50 lg:h-70 md:h-48 flex flex-col items-center justify-center lg:gap-2 cursor-pointer hover:scale-105 transition transform duration-500">
+           <img class="w-20 h-20" src="/images/youtube.png.png" alt="youtube">
+           <p class="text-black/90 font-bold mt-8">Follow us on Youtube</p>
+           <p class="text-gray-500 font-medium">Latest news and updates</p>
+         </div>
+
+         <div class="md:w-px lg:h-56 md:h-36 bg-gray-200"></div>
+
+         <!-- whatsapp -->
+         <div class="lg:w-[320px] w-50 lg:h-70 md:h-48 flex flex-col items-center justify-center lg:gap-2 cursor-pointer hover:scale-105 transition transform duration-500">
+           <img class="w-20 h-20" src="/images/whatsapp.png" alt="whatsapp">
+           <p class="text-black/90 font-bold mt-8">Follow us on LinkedIn</p>
+           <p class="text-gray-500 font-medium">Join the Community</p>
+         </div>
+
+         <div class="md:w-px lg:h-56 md:h-36 bg-gray-200"></div>
+
+         <!-- facebook -->
+         <div class="lg:w-[320px] w-50 lg:h-70 md:h-48 flex flex-col items-center justify-center lg:gap-2 cursor-pointer hover:scale-105 transition transform duration-500">
+           <img class="w-20 h-20" src="/images/facebook.png" alt="facebook">
+           <p class="text-black/90 font-bold mt-8">Follow us on Facebook</p>
+           <p class="text-gray-500 font-medium">Latest news and updates</p>
+         </div>
+
+       </section>
+
+       <!-- box section starts here -->
+        <section class="w-full h-auto md:p-20 p-10 flex items-center justify-center bg-white">
+
+          <div class="relative z-10 w-full md:h-100 h-80 rounded-xl flex flex-col flex-wrap items-center justify-center bg-white shadow-xl text-center md:p-10 p-5">
+          <!-- background image -->
+           <div class="absolute inset-0 -z-10 flex items-center justify-center">
+            <img class="md:w-50 md:h-50 w-16 h-16 object-contain md:mt-60 md:ml-40" src="/images/bg-image.webp" alt="bg">
+            <div class="absolute inset-0"></div>
+           </div>
+          <div>
+            <h1 class="text-black/90 font-bold md:text-5xl text-2xl md:mb-8 mb-4 cursor-text">Ready to get started?</h1>
+            <p class="md:text-2xl text-lg text-gray-500 md:mb-8 mb-4 cursor-text">At Ezitech, we constantly push boundaries to deliver excellence. Our commitment to quality and innovation makes us your trusted partner for growth and success.</p>
+            <!-- button -->
+            <button class="md:px-14 px-10 md:py-7 py-4 bg-blue-500 md:font-bold font-medium text-white hover:bg-blue-900 transition duration-500 ease-in-out cursor-pointer rounded-r-full rounded-l-full md:my-5 my-2.5">GET STARTED NOW</button>
+          </div>
+          </div>
+        </section>
+
+        <hr class="w-full h-px bg-gray-50">
+
+         <!-- footer section starts here -->
+          <footer class="w-full bg-white flex flex-col px-5 sm:px-8 md:px-14 py-10 gap-12">
+          
+            <!-- info div -->
+            <div class="flex flex-col md:flex-row flex-wrap gap-10 md:gap-8 md:mt-24">
+          
+              <!-- location -->
+              <div class="w-full md:w-96 flex flex-col gap-4 md:gap-5">
+                <p class="text-gray-500 text-base md:text-xl cursor-text">
+                  Office #304-B، Amna Plaza, Main Peshawar Rd, Rawalpindi, Punjab
+                </p>
+                <div class="space-y-1 md:space-y-2">
+                  <p class="text-gray-500 text-base md:text-lg cursor-text">(92) 337-7777860</p>
+                  <p class="text-black/90 text-base md:text-lg cursor-pointer">info@ezitech.org</p>
+                </div>
+              </div>
+          
+              <!-- explore more -->
+              <div class="w-full md:w-70 flex flex-col gap-2 md:gap-4
+                          [&>p]:text-gray-600 [&>p]:text-base md:[&>p]:text-lg
+                          [&>p:hover]:text-black/90 [&>p]:cursor-pointer">
+                <h1 class="font-medium text-xl md:text-2xl text-black/90 mb-1 md:mb-2.5 cursor-text">
+                  Explore More
+                </h1>
+                <p>About Us</p>
+                <p>Partners</p>
+                <p>Portfolio</p>
+                <p>Careers</p>
+                <p>Blog</p>
+              </div>
+          
+              <!-- internships -->
+              <div class="w-full md:w-70 flex flex-col gap-2 md:gap-4
+                          [&>p]:text-gray-600 [&>p]:text-base md:[&>p]:text-lg
+                          [&>p:hover]:text-black/90 [&>p]:cursor-pointer">
+                <h1 class="font-medium text-xl md:text-2xl text-black/90 mb-1 md:mb-2.5 cursor-text">
+                  Internships
+                </h1>
+                <p>Strategy</p>
+                <p>eCommerce</p>
+                <p>Branding</p>
+                <p>Digital Marketing</p>
+                <p>Design</p>
+              </div>
+          
+            </div>
+          
+            <!-- email div -->
+            <div class="flex flex-col gap-6 md:gap-8 md:mt-5 max-w-xl">
+              <h1 class="text-2xl md:text-3xl font-semibold text-black/90 cursor-text">
+                Updtes
+              </h1>
+          
+              <div class="relative space-y-3 md:space-y-5">
+                <p class="text-base md:text-lg text-gray-500 cursor-text">
+                  Subscribe our newsletter to get the latest news & updates.
+                </p>
+          
+                
+
+                <input
+                 type="email"
+                 placeholder="Enter email address"
+                 class="w-full p-4 md:p-5 bg-gray-100/90 text-gray-900
+                        text-base md:text-xl rounded-lg outline-none"/>
+                 
+                  <p class="absolute px-5 py-5 right-2 mt-3 top-0.5 translate-y-1/2
+                         flex items-center justify-center
+                         
+                         bg-gray-200 text-base md:text-lg
+                         rounded-r-lg font-semibold
+                         hover:bg-blue-500 hover:text-white
+                         transition duration-300 cursor-pointer">GO</p>
+
+              </div>
+            </div>
+          
+            <!-- divider -->
+            <div class="flex items-center justify-center">
+              <div class="w-full md:w-[80%] h-px bg-gray-200 md:mt-24 md:mb-10"></div>
+            </div>
+          
+            <!-- copyright div -->
+            <div class="flex flex-col md:flex-row gap-6 md:gap-0
+                        items-center justify-between md:mb-10 text-center md:text-left">
+          
+              <p class="text-gray-500 text-sm md:text-lg cursor-text">
+                © 2024 Ezitech Institute. All rights reserved | Design & Develop by
+                <span class="hover:text-black/90 transition duration-500 cursor-pointer text-gray-600">
+                  Ezitech <br class="md:hidden"> Solutions
+                </span>
+              </p>
+          
+              <div class="flex gap-4 md:gap-5">
+                <p class="text-gray-500 text-sm md:text-lg font-semibold hover:text-black/90 transition cursor-pointer">
+                  Terms & Conditions
+                </p>
+                <p class="text-gray-500 text-sm md:text-lg font-semibold hover:text-black/90 transition cursor-pointer">
+                  Privacy Policy
+                </p>
+              </div>
+          
+            </div>
+          
+          </footer>
+
+
+         <!-- Left Side Button (Image) -->
+         <div class="fixed bottom-8 left-8 z-50 flex flex-row gap-4 items-center justify-center">
+           <button class="md:w-16 md:h-16 w-6 h-6 rounded-full flex items-center justify-center hover:cursor-pointer">
+              <img src="/images/whatsapp.png" alt="Image Button" class="w-full h-full rounded-full object-cover"/>
+           </button>
+           <h1 class="px-6 py-2 bg-gray-100 rounded-lg text-sm cursor-pointer text-gray-600">Need help? <span class="text-black font-semibold">Chat with us</span></h1>
+         </div>
+
+         <!-- right side button -->
+          <div class="fixed bottom-8 right-8 z-50 md:flex flex-row gap-4 items-center justify-center hidden">
+            <p class="w-12 h-12 rounded-full flex items-center justify-center hover:cursor-pointer text-black/90 font-semibold text-lg bg-white shadow-xl hover:scale-105 transition duration-500"><i class="ri-arrow-up-s-line"></i></p>
+          </div>
+
+</body>
+</html>

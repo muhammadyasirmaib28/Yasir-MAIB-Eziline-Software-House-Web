@@ -1,0 +1,14 @@
+@import "tailwindcss";
+.changing-word::after {
+  content: "Web Development";
+  animation: changeWords 6s infinite;
+}
+
+@keyframes changeWords {
+  0%   { content: "Web Dev"; }
+  33%  { content: "Markiting"; }
+  66%  { content: "Social Skills"; }
+  100% { content: "Web Design"; }
+}
+
+
